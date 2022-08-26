@@ -6,3 +6,10 @@
 body {
   padding: 20px 80px;
 }
+
+a
+{
+  text-decoration: none;
+  color: black;
+  font-family: var(--web-section-text);
+}
