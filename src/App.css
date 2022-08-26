@@ -3,3 +3,6 @@
   --web-section-text: "Barlow", sans-serif;
 }
 
+body {
+  padding: 20px 80px;
+}

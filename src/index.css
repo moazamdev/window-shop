@@ -6,5 +6,19 @@ body {
 }
 
 code {
-  font-family: 'Syne', sans-serif;
+  font-family: "Syne", sans-serif;
+}
+
+p,
+span {
+  font-family: var(--web-section-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--web-section-title);
 }
