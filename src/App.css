@@ -2,6 +2,10 @@
   --web-section-title: "Syne", sans-serif;
   --web-section-text: "Barlow", sans-serif;
 }
+*
+{
+  box-sizing: border-box;
+}
 
 body {
   padding: 20px 80px;

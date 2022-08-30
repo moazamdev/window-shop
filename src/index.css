@@ -10,7 +10,11 @@ code {
 }
 
 p,
-span {
+a,
+span,
+label,
+input,
+button {
   font-family: var(--web-section-text);
 }
 
