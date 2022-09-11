@@ -4,15 +4,35 @@
   flex-direction: column;
   height: 400px;
   align-items: center;
-
+  position: relative;
+  
+  
   .image {
     width: 100%;
     height: 95%;
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+    transition: .3s all ease-out;
   }
 
+  &:hover {
+    & .image {
+      opacity: .9;
+    }
+    .custom-button {
+      opacity: 1;
+      display: block;
+    }    
+  }
+  .custom-button{
+    width: 80%;
+    opacity: 0;
+    position: absolute;
+    top: 290px;
+    display: none;
+    transition: .3s all ease-out;
+  }
   .collection-footer {
     width: 100%;
     height: 5%;
