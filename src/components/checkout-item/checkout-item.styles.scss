@@ -23,12 +23,29 @@
   }
 
   .quantity {
-    padding-left: 20px;
+    display: flex;
+
+    .arrow {
+      cursor: pointer;
+      background-color: rgb(235, 235, 235);
+      color: black;
+      width: 25px;
+      height: 25px;
+      border-radius: 2em;
+      font-size: 1em;
+      display: flex;
+      justify-content: center;
+      user-select: none;
+    }
+    .value {
+      margin: 0 10px;
+    }
   }
 
   .remove-btn {
     padding-left: 12px;
     cursor: pointer;
     user-select: none;
+    color: red;
   }
 }
