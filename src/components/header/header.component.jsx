@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 import "./header.styles.scss";
-import { ReactComponent as Logo } from "../../assests/crown-logo.svg";
+import { ReactComponent as Logo } from "../../assests/window-shop-logo.svg";
 import { auth } from "../../firebase/firebase.utils";
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";

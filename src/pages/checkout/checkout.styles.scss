@@ -28,4 +28,19 @@
     margin-left: auto;
     font-size: 36px;
   }
+
+  button
+  {
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+
+  .text-warning
+  {
+    margin-top: 40px;
+    text-align: center;
+    color: red;
+    font-size: 1.2em;
+    font-family: var(--web-section-text);
+  }
 }
