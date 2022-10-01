@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./App.css";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
@@ -9,11 +9,7 @@ import HomePage from "./pages/homepage/homepage.component.jsx";
 import ShopPage from "./pages/shop/shop.component";
 import Header from "./components/header/header.component";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
-import {
-  auth,
-  createUserProfileDocument,
-  firestore,
-} from "./firebase/firebase.utils";
+import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { setCurrentUser } from "./redux/user/user.action";
 import { selectCurrentUser } from "./redux/user/user.selectors";
 import CheckoutPage from "./pages/checkout/checkout.component";
